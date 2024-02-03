@@ -15,7 +15,9 @@ class Calculator:
      return a * b
 
  def divide(self, a, b):
-
+    if b==0:
+        print("divided by o error")
+    else:
      return a / b
 
 # TODO: Implement the following function to calculate the square root of a number.
